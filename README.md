@@ -1,4 +1,7 @@
 # udacity_homework1
+
+![Alt text](/test.jpg)
+
 ## Function Description
   
 ### def colorSelect(image)  
