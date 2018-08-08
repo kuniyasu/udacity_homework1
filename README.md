@@ -1,4 +1,4 @@
-# udacity_homework1
+# Finding Lane Lines on the Road
 
 This is jupyter noitebok code. It is necessary opencv2, numpy and VideoFileClip libraries. Additonally for debugging, you should import matplot library.
 
