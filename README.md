@@ -14,6 +14,9 @@
 ## Result
 ![Alt text](/test_output.mp4)  
 
+<video width="640" height="480" controls>
+    <source src="test.mp4" type="video/mp4">
+</video>   
 
 
 
