@@ -17,7 +17,7 @@ This function can be get edge image. We can adjust variable low_threshold's and 
 This function argment shoud be 3 color image.
 
 ### def hough(image):  
-It is hough line detection function. Return values are line vertexes. 
+It is hough line detection function. Return values is drown line vertexes image. 
 
 
 ### def detectLine(image):  
