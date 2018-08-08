@@ -9,7 +9,7 @@ This is jupyter noitebok code. It is necessary opencv2, numpy and VideoFileClip 
 This function can be take whte and orange colors. Those colors are used road line. white_th and orange_th are defined color code.
 
 ### def regionMask(image):  
-This funtion can cliping image area. Clipped area are defined by left_bottom, right_bottom,and apex .
+This funtion can cliping image area. Clipped area is defined by left_bottom, right_bottom,and apex .
 Clipping Default value are screens edge-buttom and center.
 
 ### def cannyFilter(image):  
