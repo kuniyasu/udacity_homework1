@@ -10,7 +10,7 @@ This function can be take whte and orange colors. Those colors are used road lin
 
 ### def regionMask(image):  
 This funtion can cliping image area. Clipped area is defined by left_bottom, right_bottom,and apex .
-Clipping Default value are screens edge-buttom and center.
+Clipping Default value are screens edge-bottoms and center.
 
 ### def cannyFilter(image):  
 This function can be get edge image. We can adjust variable low_threshold's and  high_threshold's  value for filter behavioral.
