@@ -2,16 +2,16 @@
 homework.ipynb is described 
 
 ## Lane Line Decetion Pipeline Image Processing
-### 1 regionMask
+### Step 1. regionMask
 
-### 2 colorSelect
+### Step 2. colorSelect
 
-### 3 Edge Feature extraction cannyFilter
+### Step 3. Edge Feature extraction cannyFilter
 
 low_threshold = 50
 high_threshold = 150
     
-### 4 hough 
+### Step 4. hough 
 
 rho = 2 
 distance resolution in pixels of the Hough grid
