@@ -11,7 +11,7 @@ This is jupyter noitebok code. It is necessary opencv2, numpy and VideoFileClip 
 
 A triangle area ,that is closed by bottoms vertex and center on screen, is fixed.
 
-> note: If you not sufficient that Center on screen and more adaptive controll is necessary, Optical-flow or sume solution is better. 
+> note: If you not sufficient that Center on screen and more adaptive controll is necessary, I will use Optical-flow or some solution.
 
 ### Step 2. Color Select
 ![select](./select_color.png)
@@ -20,7 +20,7 @@ White and orange colors are supported. Please adjust variable _white_th_ and _or
 
 > note1 : Binalized data is not shape sometime. I think that dilate and erode filters are effective.
 
-> note2 : RGB color selection is depended luminance, I suggest that RBG shold be convert to HSV color.
+> note2 : RGB color selection is depended by luminance, I suggest that RBG shold be convert to HSV color.
 
 ### Step 3. Edge Feature Extraction Canny Filter
 ![canny](./canny_image.png)
@@ -60,22 +60,5 @@ _max_line_gap = 20_
  It is overlay detect line on source image.
  
 
-## Function Description In Source code
-### def colorSelect(image)  
-This function can be take whte and orange colors. Those colors are used road line. white_th and orange_th are defined color code.
 
-### def regionMask(image):  
-This funtion can cliping image area. Clipped area is defined by left_bottom, right_bottom,and apex .
-Clipping Default value are screens edge-bottoms and center.
-
-### def cannyFilter(image):  
-This function can be get edge image. We can adjust variable low_threshold's and  high_threshold's  value for filter behavioral.
-This function argment shoud be 3 color image.
-
-### def hough(image):  
-It is hough line detection function. Return values is drown line vertexes image. 
-
-
-### def detectLine(image):  
-Those defined functions pipeline.
 
